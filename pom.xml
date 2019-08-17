@@ -51,9 +51,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/net.masterthought/cucumber-reporting -->
 		<dependency>
 		    <groupId>net.masterthought</groupId>
 		    <artifactId>cucumber-reporting</artifactId>
+		    <version>4.9.0</version>
 		</dependency>
 
 		<dependency>
