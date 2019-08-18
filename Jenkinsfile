@@ -3,9 +3,9 @@ pipeline{
     stages{
        stage('Build'){
          steps{ 
-            sh 'C:/ProgramData/chocolatey/lib/maven/apache-maven-3.6.1/bin/mvn clean install'
+            sh 'C:/ProgramData/chocolatey/lib/maven/apache-maven-3.6.1/bin/mvn verify'
          }}
-       stage('Build and Test'){
+       stage('Test'){
          steps{ 
             sh 'C:/ProgramData/chocolatey/lib/maven/apache-maven-3.6.1/bin/mvn test'
          }}  
